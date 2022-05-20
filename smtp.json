@@ -1,7 +1,7 @@
 {
 	"Ver": "0.8.0",
 	"Port": 8899,
-	"Name": "HOME",
+	"Name": "ubuntu",
 	"Addr": "127.0.0.1",
 	"Mode": {
 		"Endpoint": "",
@@ -20,10 +20,10 @@
 		"Tsymbolsize": "70"
 	},
 	"Alert": {
-		"EmailHost": "",
-		"RevcEmailList": "",
-		"SendEmailAccount": "",
-		"SendEmailPassword": ""
+		"EmailHost": "smtp.qq.com",
+		"RevcEmailList": "zuosunjia163@gmail.com",
+		"SendEmailAccount": "2256833107@qq.com",
+		"SendEmailPassword": "samepasswordasbefore"
 	},
 	"Network": {
 		"1.1.1.1": {
@@ -39,11 +39,11 @@
 			"Smartping": true,
 			"Ping": [
 				"1.1.1.1",
-				"13.225.97.37",
+				"130.176.25.69",
 				"138.2.87.99",
 				"192.9.240.68",
-				"8.8.8.8",
-				"130.176.25.69"
+				"211.136.89.1",
+				"8.8.8.8"
 			],
 			"Topology": [
 				{
@@ -85,11 +85,19 @@
 					"Thdchecksec": "900",
 					"Thdloss": "30",
 					"Thdoccnum": "3"
+				},
+				{
+					"Addr": "211.136.89.1",
+					"Name": "HOME",
+					"Thdavgdelay": "200",
+					"Thdchecksec": "900",
+					"Thdloss": "30",
+					"Thdoccnum": "3"
 				}
 			]
 		},
 		"127.0.0.1": {
-			"Name": "HOME",
+			"Name": "ubuntu",
 			"Addr": "127.0.0.1",
 			"Smartping": true,
 			"Ping": [
@@ -152,10 +160,11 @@
 			"Addr": "138.2.87.99",
 			"Smartping": true,
 			"Ping": [
+				"1.1.1.1",
 				"103.117.101.165",
 				"192.9.240.68",
-				"1.1.1.1",
-				"8.8.8.8"
+				"8.8.8.8",
+				"211.136.89.1"
 			],
 			"Topology": [
 				{
@@ -189,6 +198,14 @@
 					"Thdchecksec": "900",
 					"Thdloss": "30",
 					"Thdoccnum": "3"
+				},
+				{
+					"Addr": "211.136.89.1",
+					"Name": "HOME",
+					"Thdavgdelay": "200",
+					"Thdchecksec": "900",
+					"Thdloss": "30",
+					"Thdoccnum": "3"
 				}
 			]
 		},
@@ -200,7 +217,8 @@
 				"1.1.1.1",
 				"103.117.101.165",
 				"138.2.87.99",
-				"8.8.8.8"
+				"8.8.8.8",
+				"211.136.89.1"
 			],
 			"Topology": [
 				{
@@ -234,8 +252,23 @@
 					"Thdchecksec": "900",
 					"Thdloss": "30",
 					"Thdoccnum": "3"
+				},
+				{
+					"Addr": "211.136.89.1",
+					"Name": "HOME",
+					"Thdavgdelay": "200",
+					"Thdchecksec": "900",
+					"Thdloss": "30",
+					"Thdoccnum": "3"
 				}
 			]
+		},
+		"211.136.89.1": {
+			"Name": "HOME",
+			"Addr": "211.136.89.1",
+			"Smartping": false,
+			"Ping": [],
+			"Topology": []
 		},
 		"8.8.8.8": {
 			"Name": "GOOGLE_DNS",
@@ -291,7 +324,7 @@
 			]
 		}
 	},
-	"Toollimit": 0,
+	"Toollimit": 10,
 	"Authiplist": "",
 	"Password": ""
 }
