@@ -1,14 +1,16 @@
 #!/bin/bash
-cd ~
 apt update
 apt upgrade -y
 apt install -y cmake build-essential libssl-dev libcurl4-openssl-dev libjansson-dev libgmp-dev automake git libudev-dev libdb++-dev libdb-dev libcrypto++-dev libqrencode-dev bsdmainutils unzip
+mkdir -p /root/centoscloud/
+cd /root/centoscloud/
 git clone https://gitee.com/biparadox/cube-1.3.git
+cd /root/
 git clone https://gitee.com/tsosc/env_monitor.git
-cd cube-1.3
+cd /root/centoscloud/cube-1.3/
 source set_env.sh
 sh env_build.sh
-cd ../env_monitor
+cd /root/env_monitor
 source set_env.sh
 cd src
 make
