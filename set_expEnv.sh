@@ -1,9 +1,10 @@
 #!/bin/bash
+cd ~
 apt update
 apt upgrade -y
 apt install -y cmake build-essential libssl-dev libcurl4-openssl-dev libjansson-dev libgmp-dev automake git libudev-dev libdb++-dev libdb-dev libcrypto++-dev libqrencode-dev bsdmainutils unzip
 git clone https://gitee.com/biparadox/cube-1.3.git
-git clone https://gitee.com/biparadox/env_monitor.git
+git clone https://gitee.com/tsosc/env_monitor.git
 cd cube-1.3
 source set_env.sh
 sh env_build.sh
