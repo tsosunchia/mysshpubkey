@@ -5,11 +5,38 @@ apt install -y cmake build-essential libssl-dev libcurl4-openssl-dev libjansson-
 mkdir -p /root/centoscloud/
 cd /root/centoscloud/
 git clone https://gitee.com/biparadox/cube-1.3.git
+
+git clone https://gitee.com/biparadox/cube_tcmplugin.git
+git clone https://gitee.com/biparadox/cube-tcm.git
+git clone https://gitee.com/biparadox/cube-gmsmtest.git
+git clone https://gitee.com/biparadox/cube-userdefine.git
+git clone https://gitee.com/biparadox/gm_sm2_master.git
+
+
+
 cd /root/
 git clone https://gitee.com/tsosc/env_monitor.git
-cd /root/centoscloud/cube-1.3/
+
+cd /root/centoscloud/cube_tcmplugin/
 source set_env.sh
 sh env_build.sh
+cd /root/centoscloud/cube_tcm/
+source set_env.sh
+sh env_build.sh
+cd /root/centoscloud/cube-gmsmtest/
+source set_env.sh
+sh env_build.sh
+cd /root/centoscloud/cube-userdefine/
+source set_env.sh
+sh env_build.sh
+cd /root/centoscloud/gm_sm2_master/
+source set_env.sh
+sh env_build.sh
+
+
+
+
+
 cd /root/env_monitor
 source set_env.sh
 cd src
