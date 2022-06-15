@@ -16,7 +16,7 @@ endif
 
 set laststatus=2 " 显示文件名
 
-set clipboard=unnamed " Vim中copy的所有内容都会上系统剪切板
+" set clipboard=unnamed " Vim中copy的所有内容都会上系统剪切板
 
 
 
