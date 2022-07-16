@@ -1,0 +1,332 @@
+{
+	"Ver": "0.8.0",
+	"Port": 8899,
+	"Name": "ubuntu",
+	"Addr": "120.244.126.248",
+	"Mode": {
+		"Endpoint": "",
+		"LastSuccTime": "",
+		"Status": "true",
+		"Type": "local"
+	},
+	"Base": {
+		"Archive": 10,
+		"Refresh": 1,
+		"Timeout": 5
+	},
+	"Topology": {
+		"Tline": "1",
+		"Tsound": "/alert.mp3",
+		"Tsymbolsize": "70"
+	},
+	"Alert": {
+		"EmailHost": "smtp.qq.com",
+		"RevcEmailList": "zuosunjia163@gmail.com",
+		"SendEmailAccount": "2256833107@qq.com",
+		"SendEmailPassword": "samepasswordasbefore"
+	},
+	"Network": {
+		"1.1.1.1": {
+			"Name": "CF_DNS",
+			"Addr": "1.1.1.1",
+			"Smartping": false,
+			"Ping": [],
+			"Topology": []
+		},
+		"103.117.101.165": {
+			"Name": "DMIT",
+			"Addr": "103.117.101.165",
+			"Smartping": true,
+			"Ping": [
+				"1.1.1.1",
+				"130.176.25.69",
+				"138.2.87.99",
+				"192.9.240.68",
+				"211.136.89.1",
+				"8.8.8.8"
+			],
+			"Topology": [
+				{
+					"Addr": "1.1.1.1",
+					"Name": "CF_DNS",
+					"Thdavgdelay": "200",
+					"Thdchecksec": "900",
+					"Thdloss": "30",
+					"Thdoccnum": "3"
+				},
+				{
+					"Addr": "130.176.25.69",
+					"Name": "CFT_回源",
+					"Thdavgdelay": "200",
+					"Thdchecksec": "900",
+					"Thdloss": "30",
+					"Thdoccnum": "3"
+				},
+				{
+					"Addr": "138.2.87.99",
+					"Name": "ORACLE_SG",
+					"Thdavgdelay": "200",
+					"Thdchecksec": "900",
+					"Thdloss": "30",
+					"Thdoccnum": "3"
+				},
+				{
+					"Addr": "192.9.240.68",
+					"Name": "ORACLE_SJ",
+					"Thdavgdelay": "200",
+					"Thdchecksec": "900",
+					"Thdloss": "30",
+					"Thdoccnum": "3"
+				},
+				{
+					"Addr": "211.136.89.1",
+					"Name": "HOME",
+					"Thdavgdelay": "200",
+					"Thdchecksec": "900",
+					"Thdloss": "30",
+					"Thdoccnum": "3"
+				},
+				{
+					"Addr": "8.8.8.8",
+					"Name": "GOOGLE_DNS",
+					"Thdavgdelay": "200",
+					"Thdchecksec": "900",
+					"Thdloss": "30",
+					"Thdoccnum": "3"
+				}
+			]
+		},
+		"120.244.126.248": {
+			"Name": "ubuntu",
+			"Addr": "120.244.126.248",
+			"Smartping": true,
+			"Ping": [
+				"120.244.126.248"
+			],
+			"Topology": [
+				{
+					"Addr": "120.244.126.248",
+					"Name": "ubuntu",
+					"Thdavgdelay": "200",
+					"Thdchecksec": "900",
+					"Thdloss": "30",
+					"Thdoccnum": "3"
+				}
+			]
+		},
+		"13.225.97.37": {
+			"Name": "CLOUDFRONT",
+			"Addr": "13.225.97.37",
+			"Smartping": false,
+			"Ping": [],
+			"Topology": []
+		},
+		"130.176.25.69": {
+			"Name": "CFT_回源",
+			"Addr": "130.176.25.69",
+			"Smartping": false,
+			"Ping": [],
+			"Topology": []
+		},
+		"138.2.87.99": {
+			"Name": "ORACLE_SG",
+			"Addr": "138.2.87.99",
+			"Smartping": true,
+			"Ping": [
+				"1.1.1.1",
+				"103.117.101.165",
+				"192.9.240.68",
+				"211.136.89.1",
+				"8.8.8.8"
+			],
+			"Topology": [
+				{
+					"Addr": "1.1.1.1",
+					"Name": "CF_DNS",
+					"Thdavgdelay": "200",
+					"Thdchecksec": "900",
+					"Thdloss": "30",
+					"Thdoccnum": "3"
+				},
+				{
+					"Addr": "103.117.101.165",
+					"Name": "DMIT",
+					"Thdavgdelay": "200",
+					"Thdchecksec": "900",
+					"Thdloss": "30",
+					"Thdoccnum": "3"
+				},
+				{
+					"Addr": "192.9.240.68",
+					"Name": "ORACLE_SJ",
+					"Thdavgdelay": "200",
+					"Thdchecksec": "900",
+					"Thdloss": "30",
+					"Thdoccnum": "3"
+				},
+				{
+					"Addr": "8.8.8.8",
+					"Name": "GOOGLE_DNS",
+					"Thdavgdelay": "200",
+					"Thdchecksec": "900",
+					"Thdloss": "30",
+					"Thdoccnum": "3"
+				},
+				{
+					"Addr": "211.136.89.1",
+					"Name": "HOME",
+					"Thdavgdelay": "200",
+					"Thdchecksec": "900",
+					"Thdloss": "30",
+					"Thdoccnum": "3"
+				}
+			]
+		},
+		"18.162.243.90": {
+			"Name": "AWS_HK_EC2",
+			"Addr": "18.162.243.90",
+			"Smartping": true,
+			"Ping": [
+				"211.136.89.1"
+			],
+			"Topology": [
+				{
+					"Addr": "211.136.89.1",
+					"Name": "HOME",
+					"Thdavgdelay": "200",
+					"Thdchecksec": "900",
+					"Thdloss": "30",
+					"Thdoccnum": "3"
+				}
+			]
+		},
+		"192.9.240.68": {
+			"Name": "ORACLE_SJ",
+			"Addr": "192.9.240.68",
+			"Smartping": true,
+			"Ping": [
+				"1.1.1.1",
+				"103.117.101.165",
+				"138.2.87.99",
+				"211.136.89.1",
+				"8.8.8.8"
+			],
+			"Topology": [
+				{
+					"Addr": "1.1.1.1",
+					"Name": "CF_DNS",
+					"Thdavgdelay": "200",
+					"Thdchecksec": "900",
+					"Thdloss": "30",
+					"Thdoccnum": "3"
+				},
+				{
+					"Addr": "103.117.101.165",
+					"Name": "DMIT",
+					"Thdavgdelay": "200",
+					"Thdchecksec": "900",
+					"Thdloss": "30",
+					"Thdoccnum": "3"
+				},
+				{
+					"Addr": "138.2.87.99",
+					"Name": "ORACLE_SG",
+					"Thdavgdelay": "200",
+					"Thdchecksec": "900",
+					"Thdloss": "30",
+					"Thdoccnum": "3"
+				},
+				{
+					"Addr": "8.8.8.8",
+					"Name": "GOOGLE_DNS",
+					"Thdavgdelay": "200",
+					"Thdchecksec": "900",
+					"Thdloss": "30",
+					"Thdoccnum": "3"
+				},
+				{
+					"Addr": "211.136.89.1",
+					"Name": "HOME",
+					"Thdavgdelay": "200",
+					"Thdchecksec": "900",
+					"Thdloss": "30",
+					"Thdoccnum": "3"
+				}
+			]
+		},
+		"211.136.89.1": {
+			"Name": "HOME",
+			"Addr": "211.136.89.1",
+			"Smartping": false,
+			"Ping": [],
+			"Topology": []
+		},
+		"8.8.8.8": {
+			"Name": "GOOGLE_DNS",
+			"Addr": "8.8.8.8",
+			"Smartping": false,
+			"Ping": [],
+			"Topology": []
+		}
+	},
+	"Chinamap": {
+		"上海": {
+			"cmcc": [
+				"117.184.42.114"
+			],
+			"ctcc": [
+				"202.96.209.133"
+			],
+			"cucc": [
+				"220.196.252.174"
+			]
+		},
+		"北京": {
+			"cmcc": [
+				"111.13.217.125"
+			],
+			"ctcc": [
+				"120.92.180.135"
+			],
+			"cucc": [
+				"202.106.54.150"
+			]
+		},
+		"广东": {
+			"cmcc": [
+				"221.179.44.57"
+			],
+			"ctcc": [
+				"202.105.158.49"
+			],
+			"cucc": [
+				"58.252.2.194"
+			]
+		},
+		"江苏": {
+			"cmcc": [
+				"120.195.6.129"
+			],
+			"ctcc": [
+				"221.229.173.233"
+			],
+			"cucc": [
+				"112.85.231.129"
+			]
+		},
+		"浙江": {
+			"cmcc": [
+				"183.246.69.139"
+			],
+			"ctcc": [
+				"115.236.169.86"
+			],
+			"cucc": [
+				"60.12.214.156"
+			]
+		}
+	},
+	"Toollimit": 0,
+	"Authiplist": "",
+	"Password": ""
+}
