@@ -39,7 +39,7 @@
         - v6
         https://dm.mmk.bar/speedtest
 
-- DMIT
+- HOME
     - LG
         https://lg-ubuntu.mmk.bar
     - SPEEDTEST-X
