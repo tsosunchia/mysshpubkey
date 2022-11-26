@@ -1,14 +1,12 @@
 # > bilibili
-DOMAIN,api.biliapi.com
-DOMAIN,api.biliapi.net
-DOMAIN,api.bilibili.com
-DOMAIN,app.biliapi.com
-DOMAIN,app.biliapi.net
-DOMAIN,app.bilibili.com
-DOMAIN,grpc.biliapi.net
-DOMAIN,m.bilibili.com
+host-suffix,acgvideo.com
+host-suffix,biliapi.com
+host-suffix,biliapi.net
+host-suffix,bilibili.com
+host-suffix,bilibili.tv
+host-suffix,hdslb.com
+host-suffix,bilivideo.com
 DOMAIN,upos-hz-mirrorakam.akamaized.net
-DOMAIN,www.bilibili.com
 DOMAIN-KEYWORD,cn-hk-eq-bcache-
 IP-CIDR,203.107.1.1/24
 # > 愛奇藝台灣站
