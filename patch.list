@@ -10,6 +10,7 @@ host, lens.l.google.com, 美国节点
 ip-asn, 140633, 境外网站
 host-suffix, mcdn.bilivideo.cn, reject
 host-suffix, szbdyd.com, reject
+IP-CIDR, 203.107.1.1/24, reject
 
 host-suffix, local, direct
 ip-cidr, 192.168.0.0/16, direct
