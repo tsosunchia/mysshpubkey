@@ -171,14 +171,6 @@ host-suffix,thestationbymaker.com,ForeignMedia
 host-suffix,thisispolaris.com,ForeignMedia
 host-suffix,watchdisneyfe.com,ForeignMedia
 
-# > E-Hentai Gallery
-host-suffix,e-hentai.org,ForeignMedia
-host-suffix,ehgt.org,ForeignMedia
-host-suffix,ehwiki.org,ForeignMedia
-host-suffix,exhentai.org,ForeignMedia
-host-suffix,hath.network,ForeignMedia
-host-suffix,hentaiverse.org,ForeignMedia
-
 # > HBO GO HKG & HBO MAX
 user-agent,HBO%20NOW*,ForeignMedia
 user-agent,HBOMAX*,ForeignMedia
