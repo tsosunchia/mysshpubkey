@@ -10,5 +10,4 @@ DOMAIN,m.bilibili.com
 DOMAIN,upos-hz-mirrorakam.akamaized.net
 DOMAIN,www.bilibili.com
 DOMAIN-KEYWORD,cn-hk-eq-bcache-
-IP-CIDR,203.107.1.1/25
-IP-CIDR,203.107.1.128/25
+IP-CIDR,203.107.1.1/24
