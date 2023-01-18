@@ -2,11 +2,13 @@ host-suffix, wechat.com, 境外网站
 host-suffix, hostloc.com, 境外网站
 host-suffix, bonsa.net, 美国节点
 host-suffix, truthsocial.com, 美国节点
-host-suffix, paypal.com, 美国节点
-host, www.paypalobjects.com, 美国节点
+user-agent,PayPal*,美国节点
+host-suffix,paypal.com,美国节点
+host-suffix,paypal.me,美国节点
+host-suffix,paypalobjects.com,美国节点
 ;GV
 host, lens.l.google.com, 美国节点
-;Bilibili
+;bilibili
 ip-asn, 140633, 境外网站
 host-suffix, mcdn.bilivideo.cn, reject
 host-suffix, szbdyd.com, reject
@@ -20,4 +22,4 @@ ip-cidr, 127.0.0.0/8, direct
 ip-cidr, 100.64.0.0/10, direct
 ip-cidr, 224.0.0.0/4, direct
 ip6-cidr, fe80::/10, direct
-geoip, cn, direct
+-geoip, cn, direct
