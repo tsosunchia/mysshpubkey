@@ -192,7 +192,7 @@ host-suffix,shadowsocks.org,境外网站
 host-suffix,sharethis.com,境外网站
 host-suffix,shazam.com,境外网站
 host-suffix,skype.com,境外网站
-host-suffix,smartdnsOutSide.com,境外网站
+host-suffix,smartdns境外网站.com,境外网站
 host-suffix,smartmailcloud.com,境外网站
 host-suffix,sndcdn.com,境外网站
 host-suffix,sony.com,境外网站
@@ -274,7 +274,7 @@ host-suffix,smartmailcloud.com,境外网站
 user-agent,TwDramas,境外网站
 host-suffix,chocotv.com.tw,境外网站
 host-suffix,2o7.net,境外网站
-host-suffix,4everOutSide.com,境外网站
+host-suffix,4ever境外网站.com,境外网站
 host-suffix,4shared.com,境外网站
 host-suffix,4sqi.net,境外网站
 host-suffix,9to5mac.com,境外网站
@@ -418,7 +418,7 @@ host-suffix,flickr.com,境外网站
 host-suffix,flipboard.com,境外网站
 host-suffix,flipkart.com,境外网站
 host-suffix,flitto.com,境外网站
-host-suffix,freeopenOutSide.com,境外网站
+host-suffix,freeopen境外网站.com,境外网站
 host-suffix,fullstory.com,境外网站
 host-suffix,fzlm.net,境外网站
 host-suffix,g.co,境外网站
@@ -426,7 +426,7 @@ host-suffix,gabia.net,境外网站
 host-suffix,geni.us,境外网站
 host-suffix,get.how,境外网站
 host-suffix,getcloudapp.com,境外网站
-host-suffix,getfoxyOutSide.org,境外网站
+host-suffix,getfoxy境外网站.org,境外网站
 host-suffix,getlantern.org,境外网站
 host-suffix,getmdl.io,境外网站
 host-suffix,getpricetag.com,境外网站
@@ -616,7 +616,7 @@ host-suffix,slack.com,境外网站
 host-suffix,slack-edge.com,境外网站
 host-suffix,slack-msgs.com,境外网站
 host-suffix,slideshare.net,境外网站
-host-suffix,smartdnsOutSide.com,境外网站
+host-suffix,smartdns境外网站.com,境外网站
 host-suffix,smh.com.au,境外网站
 host-suffix,snapchat.com,境外网站
 host-suffix,sndcdn.com,境外网站
@@ -720,7 +720,7 @@ host-suffix,unblocksites.co,境外网站
 host-suffix,unpo.org,境外网站
 host-suffix,untraceable.us,境外网站
 host-suffix,uploaded.net,境外网站
-host-suffix,uOutSide.org,境外网站
+host-suffix,u境外网站.org,境外网站
 host-suffix,upwork.com,境外网站
 host-suffix,urchin.com,境外网站
 host-suffix,urlparser.com,境外网站
@@ -812,6 +812,17 @@ host-suffix,zalmos.com,境外网站
 host-suffix,zaobao.com.sg,境外网站
 host-suffix,zeutch.com,境外网站
 host-suffix,zynamics.com,境外网站
+host,news-assets.apple.com,境外网站
+host,news-client.apple.com,境外网站
+host,news-edge.apple.com,境外网站
+host,news-events.apple.com,境外网站
+host-suffix,apple.news,境外网站
+host,api.smoot.apple.cn,境外网站
+host-suffix,safebrowsing.apple,境外网站
+host,testflight.apple.com,境外网站
+host-suffix,itunesu.assets.itunes.com,境外网站
+host-suffix,itunes-apple.com.akadns.net,境外网站
+host-suffix,itunes.com.edgekey.net,境外网站
 host-keyword,amazon,境外网站,force-remote-dns
 host-keyword,appledaily,境外网站,force-remote-dns
 host-keyword,blogspot,境外网站,force-remote-dns
@@ -823,7 +834,7 @@ host-keyword,instagram,境外网站,force-remote-dns
 host-keyword,twitter,境外网站,force-remote-dns
 host-keyword,twimg,境外网站,force-remote-dns
 
-// Force some domains which are fucked by GFW while resolving DNS,or do not respect the system OutSide
+// Force some domains which are fucked by GFW while resolving DNS,or do not respect the system 境外网站
 host-keyword,appledaily,境外网站,force-remote-dns
 host-keyword,beetalk,境外网站,force-remote-dns
 host-keyword,blogspot,境外网站,force-remote-dns
